@@ -86,3 +86,41 @@
 // console.log(2 <= 2); // less than or equals to
 // console.log(45 > 50); //greater than
 // console.log(11 >= 9); //greater than or equals to
+
+// ? logical operator
+// ? boolean => true/false
+// OR (||)
+// AND (&&)
+// NOT (!)
+
+// ? OR(||)
+// add gate
+// || => pipe
+// let condition1 = false;
+// let condition2 = true;
+// console.log(condition1 || condition2);
+
+// let c1 = 'Nepal' === 'Nepal'; //true
+// let c2 = 5 > 9; //false
+// let c3 = '10' !== 10; //true
+
+// let res = c1 || c2 || c3;
+// console.log(res);
+
+// ? AND (&&)
+// ? multiply gate
+
+// let c1 = true;
+// let c2 = false;
+// console.log(c1 && c2);
+
+// let condition1 = 5 === '5'; //false
+// let condition2 = 'Nepal' === 'nepal'; //false
+// let condition3 = 55 >= 55; //true
+
+// console.log(condition1 && condition2 && condition3);
+
+// ? NOT(!)
+
+// const c1 = false;
+// console.log(!c1);

@@ -1,0 +1,7 @@
+// scope
+
+{
+  {
+    console.log(x);
+  }
+}
