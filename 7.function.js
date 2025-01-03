@@ -109,3 +109,43 @@
 
 // const res = findPolarity(0);
 // console.log(res);
+
+// avg of five numbers
+
+// one liner
+// const averageCalculator = (a, b, c, d, e) => (a + b + c + d + e) / 5;
+
+// const average = averageCalculator(5, 5, 5, 5, 5);
+// console.log(average);
+
+// WAF which converts Rupee to Paisa
+// const convertRsToPaisa = (rs) => {
+//   let paisa = rs * 100;
+
+//   return paisa;
+// };
+
+// const paisa = convertRsToPaisa(5);
+// console.log(paisa);
+
+// WAF that converts dollar to cents
+// const convertDollarToCents = (dollar) => {
+//   let cents = dollar * 100;
+//   return cents;
+// };
+
+// let res = convertDollarToCents(7);
+// console.log(res);
+
+// WAF which checks whether a number is prime or not
+
+// WAF which prints largest of two different numbers
+// const findLarge = (a, b) => {
+//   if (a > b) {
+//     return `${a} is largest`;
+//   } else {
+//     return `${b} is largest`;
+//   }
+// };
+
+// console.log(findLarge(4, 5));

@@ -35,10 +35,10 @@
 // Update/ Edit
 // Delete/Remove
 
-let laptopDetails = {
-  brand: 'MSI',
-  price: 1400,
-};
+// let laptopDetails = {
+//   brand: 'MSI',
+//   price: 1400,
+// };
 
 // to access object values
 //1. dot operator
@@ -57,9 +57,42 @@ let laptopDetails = {
 
 // ? delete
 
-delete laptopDetails.brand;
-console.log(laptopDetails);
+// delete laptopDetails.brand;
+// console.log(laptopDetails);
 
 // ?read
 // console.log(laptopDetails.brand);
 // console.log(laptopDetails['brand']);
+
+// 2.Create an object named myHouseDetails and add following properties
+// numberOfRooms
+// numberOfMembers
+// colorOfHouse
+// builtYear
+// numberOfStorey
+
+// A.Delete numberOfMembers property
+// B.Update numberOfRooms by new value
+// C.Add a  new property called estimatedPriceOfHouse
+// D.Print out all properties on the console like “I have a green coloured house with 9 rooms where 10 people are  living. The house is 3 storey and was built in 2011 with an estimated budget of 2 crores.”
+
+let myHouseDetails = {
+  numberOfRooms: 9,
+  numberOfMembers: 6,
+  color: 'green',
+  builtYear: 1990,
+  numberOfStorey: 3,
+};
+
+// delete myHouseDetails.numberOfMembers;
+
+// myHouseDetails.numberOfRooms = myHouseDetails.numberOfRooms + 2;
+// myHouseDetails.numberOfRooms += 2;
+
+//x=x+2
+
+// myHouseDetails.estimatedPriceOfHouse = '3 crore';
+// console.log(myHouseDetails);
+
+// console.log(`I have a ${myHouseDetails.color} colored house.`);
+console.log('I have a ' + myHouseDetails.color + ' colored house.');
