@@ -94,8 +94,8 @@
 // arrayList.unshift(item)
 // arrayList.unshift(item1, item2,..., item N)
 
-let brands = ['Yamaha', 'Triump', 'Harley', 'Honda'];
+// let brands = ['Yamaha', 'Triump', 'Harley', 'Honda'];
 
-brands.unshift('VW');
+// brands.unshift('VW');
 // brands.unshift('Hero', 'BMW');
-console.log(brands);
+// console.log(brands);
